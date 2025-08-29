@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    padding: 40px 60px;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-around;
+}
+
+.marq marquee {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.contact {
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+
+    display: flex;
+
+}
+
+.contact li a {
+    color: black;
+}
+
+.con {
+    display: flex;
+    gap: 30px;
+}
+
+.whatsapp {
+    padding: 10px 20px;
+    background-color: rgb(52, 227, 95);
+    border-radius: 50px;
+}
+
+.con li a {
+    color: rgb(248, 246, 246);
+}
+
+.apply {
+    padding: 10px 20px;
+    background-color: rgb(227, 67, 52);
+    border-radius: 50px;
+}
+
+.con li a {
+    color: rgb(248, 246, 246);
+}
+
+/* .logo-text span {
+    animation: blink 1s infinite; */
+
+/* }
+/* .logo-sec span{
+    animation: blink 1s infinite;
+
+} */ */
+
+@keyframes blink {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
